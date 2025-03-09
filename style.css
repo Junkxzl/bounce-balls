@@ -1,0 +1,14 @@
+body {
+    margin: 0; /* Remove default body margins */
+    overflow: hidden; /* Hide scrollbars if the ball goes off-screen */
+    background-color: #f0f0f0; /* Optional background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure the canvas takes up the full viewport height */
+}
+
+canvas {
+    border: 1px solid #ccc; /* Optional border */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+}
